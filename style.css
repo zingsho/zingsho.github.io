@@ -438,16 +438,20 @@ address {
   /* change the iam ZV */
 
   /* portrait */
-  #namen:hover {
-    /* margin-top: 150px; */
-    margin-left: 0;
-    padding: 200px 150px 200px 150px;
-    /* transform: scale(2); */
-    /* background-image: url(images/mist.jpg);
+  /* #namen:hover { */
+  /* margin-top: 150px; */
+  /* margin-left: 0; */
+  /* padding: 200px 150px 200px 150px; */
+  /* transform: scale(2); */
+  /* background-image: url(images/mist.jpg);
     background-size: 100%;
     z-index: 1; */
-    /* position: relative; */
-    /* background-color: aliceblue; */
-    /* background-image: url(images/mist.jpg); */
+  /* position: relative; */
+  /* background-color: aliceblue; */
+  /* background-image: url(images/mist.jpg); */
+  /* } */
+
+  #small-scrn-2 {
+    height: 50vh;
   }
 }
