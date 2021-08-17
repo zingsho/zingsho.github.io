@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Code+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <main id="home">
+
+      <!-- this logo is gif loop from p5js -->
+      <div class="nav"><a href="#home"  class="nav-link-css">
+        <div class="logo" hover-home ="[Home]"><span><b>[zing<br>sho]</span></b></div></a>
+      </div>
+     
+
+      <div class="container">
+      <!--Intro-->
+      <section class="introduction" >
+        <h1 class="hello">Hello!</h1>
+        <p class="intro"><span>My name is <span id="namen" class="portrait hover-pic">Zingsho Vashum</span></p>
+        <p> I am a Designer: Communication | UX | Interaction | Maker </p>
+        <p class="text1">I explore and conceptualize product with a maker-mindset focusing on human and object interaction.<br>
+          I am currently volunteering in a non-profit organization as UX and content designer in Berlin.</p>
+      
+
+          <!-- social media -->
+          <section class="iconsNbutton">      
+            <a href="2021_ZVCV-.pdf" download class="btn1">Resume</a>
+        <a href="https://www.instagram.com/witching_hour___/" target="_blank"><img src="images/instagram.png" class="icons"></a>
+        <a href="https://www.makestuffbyz.tumblr.com" target="_blank"><img src="images/tumblr.png" class="icons"></a>
+        <a href="https://twitter.com/Zingshowonv" target="_blank"><img src="images/twitter.png" class="icons" ></a>
+        <a href="https://github.com/zingsho" target="_blank"><img src="images/github.png" class="icons"></a>
+      </section>
+    </section>
+
+    <section class ="sect-containers">
+      <div class="small-screen">
+      <h1 class="title">An illustrative journey of snow.</h1> <span class="sub-t">A prototype installation of immersive storytelling into wonders of morphing snowflakes .</span>
+      <ul class="bar-tags-btns">
+        <li class="tags">MasterThesis</li>
+        <li class="tags">ScienceCommunication</li>
+        <li class="tags">Visualprogramming</li>
+        <li class="tags">CommunicationDesign</li>
+        <li class="tags">Snowcrystals</li>
+        <li class="tags">IllustrativeScience</li>
+        <li class="tags">Installation</li>
+        <li class="tags">Museum</li>
+        <li class="tags">TactileGraphics</li>
+      </ul>
+      <div class="p-box">
+      <p><i>"Making scientific processes tangible and understandable for everyone: This was the goal of master's student
+        Zingsho Vashum (M.A. Communication Design) in her final project. She took a closer look at the formation of
+        snow and designed, among other things, an installation that allows viewers to engage with this fascinating 
+        natural phenomenon in a haptic and accessible way."</i><span id="link-web">&nbsp; HMKW-news 08/02/2021</span></p>
+        <p class="secondary-font"><b></b>My project idea combines the areas of data visualization, inclusive design, illustration, and the recreation 
+          of natural forms with the help of visual programming. Through interactive storytelling, the project aims to bring
+          the viewer closer to scientific processes and provide an immersive learning experience. The goal of the project is
+          to reconcile illustration and science. Viewers can interact with the installation - and thus have a more lasting 
+          experience than if they could only look at it or read the accompanying text. My entire Master thesis and documentation 
+          can be found <a href="https://github.com/zingsho/Master-Thesis--An-illustrative-journey-of-snow#readme" target="_blank" id="link-web">here</a><p>   
+          </div>    
+
+
+          <iframe width="100%" height="500px" class="small-scrn" src="https://va.media.tumblr.com/tumblr_qs398fk8uC1wdh5ji.mp4" frameborder="0" allowfullscreen></iframe>
+      </iframe>
+ 
+            <!-- <video width="100%" height="500px"controls class="small-scrn"> 
+              <source src="images/user-testing.mp4" type="video/mp4">
+            </video> -->
+          
+          <!-- image slide container -->
+      <div class="slide-show-container slide-content">
+        <img src="images/01.png" alt="prototype-installation-01" class="mySlides">
+        <img src="images/02.png" alt="prototype-installation-02" class="mySlides">
+        <img src="images/03.png" alt="prototype-installation-02" class="mySlides">
+        <img src="images/04.png" alt="prototype-installation-02" class="mySlides">
+        <!-- <img src="images/05.png" alt="prototype-installation-02" class="mySlides"> -->
+
+
+        <!-- prev and next btns -->
+        <button class="slide-btn-left" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="slide-btn-right" onclick="plusSlides(1)">&#10095;</button>
+      </div>
+      <!-- dot shape indicator of current slides -->
+      <div class="indicator-dot">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <!-- <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span> -->
+      </div>
+      </section>
+  </div>
+</div>
+
+ <!-- neuroscience for 99%  -->
+ <section class="sect-containers">
+  <div class="small-screen">
+    <h1 class="title">Insane in the chromatophore.</h1>
+      <span class="sub-t">A graphical mashup of neuroscience, music and cephalopod</span>
+    <ul class="bar-tags-btns">
+      <li>IllustrationScience</li>
+      <li>InteractiveDesign</li>
+      <li>ScienceCommunication</li>
+      <li>Music</li>
+      <li>CommunicationDesign</li>
+      <li>visualization</li>
+      <li>sound</li>
+      <li>Education</li>
+      <li>ExperienceDesign</li>
+    </ul>
+
+    <div class="p-box">
+    <p class="secondary-font">
+      <i>"We are always looking for ways to explain neuroscience in new and interesting ways. One of our
+        main goals is to expand the teaching of neuroscience in High School classrooms. Having compelling
+        demonstrations helps both the teachers and students."<br> <b id="link-web">Greg Gage</b></i>
+    </p>
+      <p class="secondary-font">The short paper of “The science behind the “Insane in the chromatophores” 
+        video written by Mera Mcgrew, Paloma T. Gonzalez-Bellido, a neuroscience postdoctoral associate in 
+        The Marine Resource Center of the Marine Biological Labs, explains that neurons control the pigmented
+        coloration in the squid skin. I had made a graphical attempt to fabricate the experiment
+        of how the pigmentary elements called Chromatophores found in the skin of cephalopods can be controlled 
+        neurally and change the skin color of the squid by stimulating the Chromatophore motoneurons with the 
+        electrical signals produced by the Hip-hop beat of 1993 Cypress Hill hit “Insane in  the brain”. 
+        <a href="https://www.youtube.com/watch?v=G-OVrI9x8Zs" target="_blank" id="link-web">Video</a>
+      </p>  
+    </div>
+    <section class="show-reels">
+      <img src="images/chromatophores_gif.gif" alt="prototype-installation-01" class="photo">
+      <img src="images/chromotaphores_gif_p5js.gif" alt="prototype-installation-01" class="photo">
+    </section>
+
+    <iframe width="100%" height="500px" class="small-scrn" src="https://va.media.tumblr.com/tumblr_qxzl8m4xMM1wdh5ji_720.mp4" frameborder="0" allowfullscreen></iframe>
+      </iframe>
+  </div>
+  </section>
+
+
+
+  <!-- Dit and Dah-->
+ <section class="sect-containers">
+  <div class="small-screen">
+    <h1 class="title">Dit and Dah</h1>
+      <span class="sub-t">An interactive ebook on Morse Code</span>
+    <ul class="bar-tags-btns">
+      <li>SemesterProject</li>
+      <li>InteractiveBook</li>
+      <li>MorseCode</li>
+      <li>eBook</li>
+      <li>CommunicationDesign</li>
+      <li>visualization</li>
+      <li>sound</li>
+      <li>crypticLanguage</li>
+      <li>creativeThinking</li>
+    </ul>
+
+    <div class="p-box">
+    <p class="secondary-font">
+      <i>These pages filled with dots and dashes will be a starting point for you to engage in a nonverbal world of
+      communication called Morse code. Originally Morse code was a vital method of radio communication during the
+      second world war and a standard distress communication until 1999, but many innovative geniuses are bringing
+      back this communication as a creative platform. Because Morse code is a cryptic code that can only be 
+      deciphered by a small percentage of people who have been trained or have learned to use it, it feels like 
+      it is unprecedented in the world of creative communication.</i>
+    </p>
+      <p class="secondary-font">Dit and Dah is an interactive eBook filled with dots and dashes introducing the 
+        basics of Morse Code. It contains simple visualization of the two distinct sound, light morse code in a 
+        simple layout on the screen and example of creative ways Morse code have been used in the history.This
+        book started as my semester project for Cross-Media Publishing in print format which turned into an actual
+        ebook published under <a href="https://eeclectic.de/produkt/dit-and-dah/" target="_blank" id="link-web"><b>Eeclectic.de</b></a><p>  
+    </div>
+      <section class="show-reels">
+
+      <img src="images/05.png" alt="prototype-installation-01" class="photo">
+
+      <video controls class="small-scrn1"> 
+        <source src="images/06.mp4" type="video/mp4">
+      </video>
+
+      <video controls class="small-scrn1"> 
+        <source src="images/07.mp4" type="video/mp4">
+      </video>
+
+      </section>
+</div>
+  </section>
+
+
+     
+
+
+
+     
+
+      <!-- Pixels and work in Progress
+     <section class="sect-containers">
+      <div class="cell-interaction">
+        <h1 class="title">Pixel Paint Portrait</h1>
+        <ul class="bar-tags-btns">
+          <li>Interactive</li>
+          <li>shapes</li>
+          <li>CommunicationDesign</li>
+          <li>visualization</li>
+          </ul>
+        <p>Shapes</p>
+      </div>
+      <div class="vid-cells">
+      </div>
+
+    </section> -->
+
+
+
+    <!-- I like to design for workshops and more -->
+    <section class="sect-containers">
+      <div class="cell-interaction">
+        <h1 class="title">Workshops and explorations</h1>
+        <ul class="bar-tags-btns">
+          <li>Workshop</li>
+          <li>DIY</li>
+          <li>CommunicationDesign</li>
+          <li>Experimental</li>
+          </ul>
+        <p></p>
+      </div>
+      <section class="show-reels">
+        
+        <figure>
+          <a href="https://makestuffbyz.tumblr.com/post/188233018873/project-feel-2018-experience-research-my-a4" target="_blank"></a>
+        <img src="images/10.png" alt="prototype-installation-01" class="photo1">
+        <figcaption>Aim of the workshop:
+        Closing the communication gap between the definition of disability, the potential of visually 
+        impaired citizens as an economic contributor and as an active citizen. Read more...</figcaption>
+      </a>
+      </figure>
+
+      <figure>
+
+      </iframe>        <iframe width="100%" height="500px" class="small-scrn" src="https://va.media.tumblr.com/tumblr_qxvirlkcUK1wdh5ji_720.mp4" frameborder="0" allowfullscreen></iframe>
+
+          <!-- <video controls class="small-scrn1" id="size-vi-poster"> 
+            <source src="images/boldpinkFlamingo.mp4" type="video/mp4">
+          </video> -->
+      <figcaption> <a href="https://makestuffbyz.tumblr.com/" target="_blank" class="nav-link-css">This presentation is inspired by Because Science and Ted-Edu storytelling when I was asked to make a protest poster. Despite my failed attempt, this was well received. 
+        Designed, researched and narrated by me. Watch out for more at makestuffbyz!</a></figcaption>
+    </a>
+    </figure>
+
+    
+  
+        </section>
+      <!-- <div class="vid-cells">
+      </div> -->
+
+    </section>
+    
+    <!-- Ask me Anything!-->
+     <section class="sect-containers">
+      <div class="cell-interaction">
+        <h1 class="title">Ask me Anything!</h1>
+        <ul class="bar-tags-btns">
+          <li>getintouch</li>
+          <li>emailme</li>
+          <li>sayhello</li>
+          <li>collaborate?</li>
+          </ul>
+        <p>You have come this far. Thank you for your time!</p>
+      </div>
+
+      <address>
+        <a href="mailto:zv1vashum@gmail.com" class="contact"> Say Hello!</a><br>
+      </address>
+    
+
+    </section> 
+  
+ 
+    </main>
+
+    <footer>
+     <p class="foot-txt">
+      This website is built by learning from inspiring people who upload learning materials 
+      on the internet for free. Without them and the internet, I wouldn't be able to explore, express, create, 
+      share and learn. Most importantly, I would never have known that there are collectives like me out there
+      who feel the same, creating something out of sheer curiosity and interest no matter where they come
+      from. That's why I'm constantly at awe trying to imbibe their qualities and knowledge while embarking on my novel
+      design journey.<br>
+      That being said, this website is made with much love by Zingsho.
+      
+     </p> 
+    </footer> 
+    <script src="carousel.js"></script>
+    <!-- <script src="attractor.js"></script> -->
+    <script src="mover.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>

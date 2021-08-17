@@ -1,0 +1,453 @@
+/** @format */
+
+:root {
+  --primary-Text: "Montserrat", sans-serif;
+  --secondary-Text: "Source Code Pro", monospace;
+  --left-margin-section: 120px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: var(--primary-Text);
+}
+main {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+i {
+  color: rgb(119, 119, 119);
+}
+
+.secondary-font {
+  font-family: var(--secondary-Text);
+}
+
+/*logo container*/
+.nav {
+  width: 50px;
+  height: 100%;
+  position: fixed;
+  top: 5;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+video {
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+.foot-txt {
+  margin: 0 auto;
+  padding: 20px;
+  color: rgb(161, 161, 161);
+  font-family: var(--secondary-Text);
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+/* btns */
+.bar-tags-btns {
+  /* text-align: center; */
+  list-style: none;
+  margin: auto;
+  padding: 5px;
+}
+
+.tags {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.bar-tags-btns li {
+  display: inline-block;
+  /* text-decoration: underline; */
+  font-size: 12px;
+  padding: 5px;
+  margin: auto;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 2px 2px 2px black;
+}
+
+.hello {
+  font-size: 7rem;
+  /* background-color: aliceblue; */
+  margin-bottom: 10px;
+}
+
+.text1 {
+  font-family: var(--secondary-Text);
+}
+
+/* change the iam ZV */
+#namen {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* portrait 
+ #namen:hover {
+  font-size: 0px;
+  margin-left: 200px; 
+  cursor: pointer;
+  margin-top: 150px;
+  padding: 300px 250px 400px 250px;
+  transform: scale(2);
+  background-image: url(images/mist.jpg);
+  background-size: 100%;
+  z-index: 1;
+  position: relative;
+  background-color: aliceblue; 
+  background-image: url(images/mist.jpg); 
+}*/
+
+.logo {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #000;
+  box-shadow: 5px 2px rgb(77, 77, 77);
+}
+
+.nav-link-css {
+  color: #fff;
+}
+
+.logo:hover {
+  font-size: 0px;
+  color: black;
+  background-color: white;
+  box-shadow: 5px 2px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.logo:hover:after {
+  content: attr(hover-home);
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.introduction {
+  margin: var(--left-margin-section);
+  height: 75vh;
+}
+
+/* align buttons and icons */
+.iconsNbutton {
+  display: flex;
+}
+
+/* resume button */
+.btn1 {
+  border: none;
+  margin-right: 40px;
+  padding: 15px;
+  width: 90px;
+  height: 15px;
+  border-radius: 0.3rem;
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--primary-Text);
+  color: aliceblue;
+  background-color: #000;
+}
+
+.icons {
+  padding: 10px;
+  width: 30px;
+}
+
+/* sections */
+.sect-containers {
+  margin: var(--left-margin-section);
+  height: 100%;
+}
+
+.title {
+  font-family: var(--secondary-Text);
+}
+
+.p-box {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  float: left;
+}
+
+.p-box p {
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* snow's image slide container */
+.slide-show-container {
+  position: relative;
+  margin: auto;
+  /* background-color: antiquewhite; */
+}
+
+#link-web {
+  font-size: 12px;
+  color: #fff;
+  background-color: #000;
+}
+
+.mySlides {
+  width: 100%;
+  display: none;
+}
+
+/* dot indicator slide images */
+.slide-btn-left,
+.slide-btn-right {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  border-radius: 0 3px 3px 0;
+  border-style: none;
+  transition: 0, 6s ease;
+}
+
+.slide-btn-right {
+  right: 0;
+}
+
+.slide-btn-left:hover,
+.slide-btn-right:hover {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+/* dots indicator*/
+.indicator-dot {
+  text-align: center;
+  padding: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 auto;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(206, 206, 206);
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #000;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* LongfinSquid */
+
+/* Dit and Dah */
+
+.show-reels {
+  display: inline-flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.small-scrn1 {
+  width: 30%;
+  height: 30%;
+}
+
+.photo {
+  padding: 10px;
+  width: 30%;
+  height: 30%;
+}
+
+.photo1 {
+  padding: 10px;
+  width: 100%;
+}
+
+figcaption {
+  color: #fff;
+  /* width: 60%; */
+  padding: 10px;
+  font-size: 12px;
+  background-color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#size-vi-poster {
+  width: 100%;
+  height: 65%;
+}
+
+/* contact */
+
+address {
+  padding-top: 20px;
+}
+.contact {
+  font-style: normal;
+  color: #fff;
+  background-color: #000;
+  box-shadow: 2px 2px 2px black;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 200px;
+  transition: 0.5s;
+}
+
+.contact:hover {
+  background-color: #388e3c;
+}
+
+/* small screen */
+@media only screen and (max-width: 900px) {
+  main {
+    padding: 0;
+    margin: auto;
+  }
+  .nav {
+    top: 0;
+  }
+  .container {
+    margin-top: 150px;
+  }
+  .introduction {
+    margin: 5px;
+  }
+
+  .hello {
+    font-size: 3rem;
+    /* background-color: aliceblue; */
+  }
+
+  .iconsNbutton {
+    margin-top: 100px;
+  }
+  .icons {
+    padding: 5px;
+    width: 30px;
+  }
+
+  .btn1 {
+    margin-right: 20px;
+  }
+
+  /* sections */
+  .sect-containers {
+    margin: 10px;
+    height: 100%;
+  }
+
+  .bar-tags-btns {
+    text-align: left;
+  }
+
+  .p-box {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .small-scrn {
+    height: 100%;
+  }
+
+  .slide-show-container,
+  .slide-content,
+  .indicator-dot {
+    display: none;
+  }
+
+  /* all sectiond after snw */
+  .small-screen {
+    margin-top: 200px;
+  }
+
+  /* ditanddah */
+  .show-reels {
+    display: block;
+  }
+
+  .photo,
+  .photo1,
+  .small-scrn1,
+  figcaption {
+    width: 100%;
+  }
+
+  /* portrait */
+  /* change the iam ZV */
+
+  /* portrait */
+  #namen:hover {
+    /* margin-top: 150px; */
+    margin-left: 0;
+    padding: 200px 150px 200px 150px;
+    /* transform: scale(2); */
+    /* background-image: url(images/mist.jpg);
+    background-size: 100%;
+    z-index: 1; */
+    /* position: relative; */
+    /* background-color: aliceblue; */
+    /* background-image: url(images/mist.jpg); */
+  }
+}
