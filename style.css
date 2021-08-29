@@ -454,4 +454,8 @@ address {
   #small-scrn-2 {
     height: 50vh;
   }
+
+  footer {
+    background-color: rgb(255, 255, 255);
+  }
 }
